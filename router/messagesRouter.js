@@ -13,7 +13,7 @@ router.get("/", (req, res) => {
         }
 
         return res.json({
-            data: results,
+            messages: results,
         });
     });
 });
